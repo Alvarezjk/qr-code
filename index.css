@@ -66,10 +66,47 @@ body{
     position: absolute;
     bottom: 0;
 
-    
-}
-
-
-.footer{ 
     color: hsl(228, 45%, 44%); 
 }
+
+
+
+
+
+@media (max-width: 375px) {
+    body{
+        margin:10px 0px 0px 0px  ;
+        border: 0px;
+    }
+
+    .contenedor{
+        width: 9rem;
+        height: 16rem;
+        
+    
+    }
+    
+    .caja{
+    width: 7rem;
+    height: 12rem;
+    border-radius: 13px;
+    margin-top: 20px;
+    }
+
+    .caja > img{
+        width: 6.5rem;
+        border-radius: 10px;
+        margin-top: -25px;
+        }
+        
+        .caja > h3,p{
+            font-size: 6px;
+            text-align: center;
+        }
+
+
+        .footer > p{
+            position: relative;
+            
+        }
+    }
